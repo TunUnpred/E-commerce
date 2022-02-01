@@ -42,6 +42,7 @@ $('.cart-add').click(function(){
         deleteButton = false;
         $('.number-cart').css('display','unset');
         $('.number-cart').text(number);
+        $('.cart-container').removeClass('cart-container-unset');
     }
     $('.article-number').text('0');
 })
